@@ -14,7 +14,7 @@
 
 1. **Клонируйте репозиторий** (если он доступен):
    ```bash
-   git clone <ссылка_на_репозиторий>
+   git clone <(https://github.com/warja256/TaskCatalog.git)>
    cd nodejs_project
 2. **Запустите сервер**:
    ```bash
