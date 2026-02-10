@@ -7,6 +7,8 @@ const timing = require('./middleware/timing');
 const errorHandler = require('./middleware/errorHandler');
 // const { logger, timing, errorHandler } = require('./middleware');
 
+app.use(express.static('public'));
+
 app.use(express.json());
 app.use(logger);
 app.use(timing);
